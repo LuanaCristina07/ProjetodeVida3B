@@ -45,3 +45,15 @@ body {
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
+.botoes {
+    display: block;
+}
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
